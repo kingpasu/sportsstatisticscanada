@@ -1,0 +1,5 @@
+function top1(){
+var hbutt=document.getElementById("hobbiesbutt");
+	hbutt.style.display ="none";
+	document.getElementById("tablebackground").style.display = "block";
+}

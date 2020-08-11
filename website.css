@@ -1,0 +1,302 @@
+.mainnav
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainnav > li
+{
+    position: relative;
+    float: left;
+	left:35%;
+    height: 30px;
+    width: 110px;
+    background: black;
+	z-index: 500;
+}
+.mainnav > li:hover { background: blue; }
+
+.mainnav li:hover > ul
+{
+    
+    display: inline;
+}
+
+
+
+
+.mainnav a 
+{ 
+	padding: 0 0 0 10px;
+    font: bold 20px Arial, Arial, Arial;
+    color: white;
+     display: block;
+    line-height: 30px;
+	text-decoration: none;
+  
+	
+}
+.mainnav a:hover { color: black; }
+
+
+.mainnav2
+{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 180px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.mainnav2 > li
+{
+    position: relative;
+    height: 30px;
+    background: grey;
+}
+.mainnav2 > li:hover { background: blue; }
+
+.mainnav3
+{
+    position: absolute;
+    top: 0px;
+    right: -300px;
+    width: 300px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+
+.mainnav3 > li
+{
+    height: 30px;
+    background: black;
+}
+.mainnav3 > li:hover { background: blue; }
+
+#title
+{
+	position:relative;
+	margin-left:690px;
+	font-size:50px;
+}
+#stitle
+{
+	position:relative;
+	margin-left:900px;
+	font-size:50px;
+}
+#stitle2
+{
+	position:relative;
+	margin-left:800px;
+	font-size:50px;
+}
+#gif1{
+	position:absolute;
+	width:300px;
+	height:300px;
+}
+#gif2{
+	position:absolute;
+	width:300px;
+	height:300px;
+}
+#gif3{
+	
+	width:300px;
+	height:300px;
+	margin-left:1500px;
+}
+#gif4{
+	
+	height:300px;
+	width:300px;
+	padding:10px;
+	margin-left:1500px;
+}
+#top_5{
+	background-color:white;
+	padding: 8px;
+	margin-top:30px;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:20%;
+}
+#tdata, #theader {
+  border: 5px solid blue;
+  text-align: left;
+  padding: 8px;
+}
+#pic{
+	width:700px;
+	height:100px;
+}
+
+
+.trow {
+  background-color: green;
+}
+#htitle
+{
+	margin-left:800px;
+	font-size:50px;
+	background-color:black;
+	margin-right:750px;
+	 color:orange;
+	
+}
+#ltitle
+{
+	position:relative;
+	margin-left:850px;
+	font-size:50px;
+}
+#ftitle
+{
+	position:relative;
+	margin-left:850px;
+	font-size:50px;
+}
+#btitle
+{
+	position:relative;
+	margin-left:850px;
+	font-size:50px;
+}
+#bbtitle
+{
+	position:relative;
+	margin-left:850px;
+	font-size:50px;
+}
+#ctitle
+{
+	position:relative;
+	margin-left:850px;
+	font-size:50px;
+}
+#rtitle
+{
+	position:relative;
+	margin-left:850px;
+	font-size:50px;
+}
+#tml{
+	margin-left:550px;
+}
+#bimg {
+		background-image: url('sports.gif');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#baskimg{
+	background-image: url('NBA.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#baseimg{
+	background-image: url('MLB.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#curlimg{
+	background-image: url('Curling.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#footimg{
+	background-image: url('CFL.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#himg{
+	background-image: url('NHL.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#lacimg{
+	background-image: url('Lacrosse.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#majlimg{
+	background-color:#13ca91;
+	background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#minlimg{
+	background-color:#ff9472;
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#rimg{
+	background-color:#a5d8f3;
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#soimg{
+	background-image: url('MLS.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#ciimg{
+	background-color:#00207f;
+	background-size:100% 100%;
+		background-repeat: no-repeat;
+}
+#formtext{
+	margin-left:500px;
+	position:relative;
+	text-align:center;
+	font-size:16px;
+	
+}
+form{
+	background-image: url('vaporwave2.gif');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	width:50%;
+	margin-top:100px;
+	height:500px;
+	border:5px solid white;
+}
+#cititle{
+margin-left:680px;
+	font-size:50px;
+	background-color:black;
+	margin-right: 680px;
+	 color:orange;	
+}
+
+.Topbutt{
+	color:red;
+	background-color:black;
+	font-size:26px;
+}
+#questbutt{
+	margin-left:900px;
+	color:red;
+	background-color:black;
+	font-size:26px;
+}
+#scoreimg{
+	background-color:blue;
+}
+#timebutt
+{
+	background-color:black;
+	color:red;
+	font-size:30px;
+}#time
+{
+	background-color:black;
+	color:red;
+	margin-right:1350px;
+    font-size:20px;
+}
